@@ -1,0 +1,35 @@
+#::
+/::
+[::]
+
+Man:running sdist
+Other Man:running check
+Man:warning: sdist: manifest template 'MANIFEST.in' does not exist (using default file list)
+Other Man:warning: sdist: standard file not found: should have one of README, README.txt
+Man:writing manifest file 'MANIFEST'
+Other Man:creating nester-1.5.0
+Man:making hard links in nester-1.5.0...
+Other Man:hard linking nester.py -> nester-1.5.0
+Man:hard linking setup.py -> nester-1.5.0
+Other Man:Creating tar archive
+Man:removing 'nester-1.5.0' (and everything under it)
+
+(pause)
+
+Man:D:\Exercise\Python\nester>python.exe setup.py install
+Other Man:running install
+Man:running build
+Other Man:running build_py
+Man:copying nester.py -> build\lib
+Other Man:running install_lib
+Man:copying build\lib\nester.py -> C:\Users\GYang\AppData\Local\Programs\Python\Python36\Lib\site-packages
+Other Man:byte-compiling C:\Users\GYang\AppData\Local\Programs\Python\Python36\Lib\site-packages\nester.py to nester.cpython-36.pyc
+Man:running install_egg_info
+Other Man:Removing C:\Users\GYang\AppData\Local\Programs\Python\Python36\Lib\site-packages\nester-1.5.0-py3.6.egg-info
+Man:Writing C:\Users\GYang\AppData\Local\Programs\Python\Python36\Lib\site-packages\nester-1.5.0-py3.6.egg-info
+
+
+(pause)
+
+......
+Other Man:Game Over!
