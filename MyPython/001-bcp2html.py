@@ -14,7 +14,7 @@ def funGetColumn(RowData):
 	return ColData
 
 
-BcpFile = open("D:\\code_seat_second.txt")
+BcpFile = open("D:\\cart_house_info.txt", encoding="gbk")
 try:
 	for each_line in BcpFile:
 		NextOne = each_line.find("#ts#")
@@ -28,6 +28,7 @@ try:
 	BcpFile.close()
 except IOError:
 	print("数据文件丢失了!")
+
 
 htmlFile = open("code_seat_second.html", "w")
 print(TableData, file=htmlFile)
